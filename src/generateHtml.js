@@ -16,7 +16,7 @@ export default function newHtml() {
   // Create image (img)
   let img = document.createElement('img');
   img.classList.add('myImg');
-  img.src = '/src/restaurantPic.jpg';
+  img.src = 'restaurantPic.jpg';
   img.alt = 'Description of the image';
 
   // Create paragraph
