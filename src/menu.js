@@ -19,7 +19,7 @@ export default function newMenu() {
   product1.setAttribute('id', 'item1');
   let span1_product1 = document.createElement('span');
   let span2_product1 = document.createElement('span');
-  span1_product1.textContent = 'pap and meat';
+  span1_product1.textContent = 'pap and mearrrrrrrrrrrrrrrrrrrrrrrrrt';
   span2_product1.textContent = '400$';
   product1.appendChild(span1_product1);
   product1.appendChild(span2_product1);
