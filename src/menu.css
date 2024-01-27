@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.menuHolder {
+    background: url('/src/restaurantPic.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    height: 100vh; /* Adjusted to cover the entire viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.menu-item,
+.special-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    color: #333;
+}
+
+.menu-item span,
+.special-item span {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.menu-item img,
+.special-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.myspecials {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.special-heading {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.theFooter {
+    margin-top: auto; /* Set to 'auto' to push the footer to the bottom */
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}

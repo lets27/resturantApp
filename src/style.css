@@ -1,0 +1,84 @@
+/* Add your styles here */
+
+body {
+    /* Set background image */
+    background-image: url('/src/restaurantPic.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.hold {
+    /* Add styles for the main container */
+    margin: 20px;
+    padding: 20px; /* Add padding for better readability */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+}
+
+nav {
+    /* Add styles for the navigation bar */
+    background-color: #333;
+    padding: 10px;
+    text-align: right; /* Align links to the right */
+}
+
+nav a.active {
+    /* Add styles for the navigation links */
+    color: orange;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+
+.heading {
+    /* Add styles for the heading (h1) */
+    color:white;
+}
+
+.myImg {
+    /* Add styles for the background image */
+    width: 100%;
+    height: 100vh; /* 100% of the viewport height */
+    object-fit: cover;
+    object-position: center;
+    position: fixed; /* Fixed positioning to cover the entire viewport */
+    z-index: -1; /* Set a lower z-index to place it behind other content */
+}
+
+.myPara {
+    /* Add styles for the paragraph */
+    color:white;
+    
+}
+.navbar a.active {
+    background-color: green;
+    color: orange;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    color: #333;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
